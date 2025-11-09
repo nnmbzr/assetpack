@@ -1,12 +1,18 @@
 {
-  "name": "@assetpack/core",
-  "version": "1.7.0",
-  "keywords": [],
-  "homepage": "https://pixijs.io/assetpack/",
-  "bugs": "https://github.com/pixijs/assetpack/issues",
+  "name": "@nnmbzr/assetpack-core",
+  "version": "1.7.1",
+  "keywords": [
+    "bitmap-fonts",
+    "assetpack",
+    "pixi",
+    "font-processing"
+  ],
+  "description": "AssetPack fork with bitmap font support based on PR #116. Added custom implementation that supports bitmap fonts processing.",
+  "homepage": "https://github.com/nnmbzr/assetpack",
+  "bugs": "https://github.com/nnmbzr/assetpack/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixijs/assetpack.git"
+    "url": "git+https://github.com/nnmbzr/assetpack.git"
   },
   "license": "MIT",
   "type": "module",

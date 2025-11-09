@@ -1,14 +1,23 @@
-<p style="text-align:center;" align="center">
-  <picture align="center">
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pixijs/assetpack/blob/main/.github/assets/assetpack-logo-light.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://github.com/pixijs/assetpack/blob/main/.github/assets/assetpack-logo-dark.svg">
-      <img align="center" src="https://github.com/pixijs/assetpack/blob/main/.github/assets/assetpack-logo-dark.svg" alt="Shows a dark AssetPack logo in light mode and a white logo in dark mode" width="60%"/>
-  </picture>
-  <div align="center" style="margin-top: -20px">
-      <h3>A configurable asset pipeline for the web!</h3>
-  </div>
-</p>
-<br>
+# @nnmbzr/assetpack-core
+
+## AssetPack Fork with Bitmap Font Support
+
+This is a fork of the official [AssetPack](https://github.com/pixijs/assetpack) with added bitmap font support based on [PR #116](https://github.com/pixijs/assetpack/pull/116).
+
+### Key Features
+- ✨ **Bitmap Font Support**: Added custom implementation for bitmap font processing
+- 🔧 **All Original Features**: Maintains all functionality from the original AssetPack
+- 🎯 **PixiJS Compatible**: Designed to work seamlessly with PixiJS applications
+
+### Installation
+
+```bash
+npm install @nnmbzr/assetpack-core
+```
+
+---
+
+## Original AssetPack Description
 
 AssetPack is a tool for optimising assets for the web. It can be used to transform, combine, compress assets.
 Any asset that you want to transform or optimise into something else can be done with AssetPack.
@@ -18,4 +27,8 @@ It uses a plugin based system to allow you to create your own plugins to do what
 
 ---
 
-Check out the docs on how to get started with AssetPack: https://pixijs.io/assetpack/
+**Original AssetPack Documentation**: https://pixijs.io/assetpack/
+
+**This Fork**: https://github.com/nnmbzr/assetpack
+
+**Changes**: Added custom assetpack implementation that supports bitmap fonts based on [PR #116](https://github.com/pixijs/assetpack/pull/116)

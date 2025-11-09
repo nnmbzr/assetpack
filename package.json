@@ -1,5 +1,5 @@
 {
-  "name": "assetpack",
+  "name": "@nnmbzr/assetpack",
   "private": true,
   "version": "1.7.0",
   "license": "MIT",
@@ -8,14 +8,14 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build --workspace @assetpack/core",
+    "build": "npm run build --workspace @nnmbzr/assetpack-core",
     "clean": "rimraf --glob dist 'packages/assetpack/test/**/.testInput' 'packages/assetpack/test/**/.testOutput' .assetpack 'packages/assetpack/test/cache'",
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
     "version:main": "node scripts/version.mjs",
-    "version:branch": "VERSION=$VERSION npm run version:branch --workspace @assetpack/core",
-    "release": "npm run release --workspace @assetpack/core",
-    "release:branch": "PUBLISH_TAG=$PUBLISH_TAG npm run release:branch --workspace @assetpack/core",
+    "version:branch": "VERSION=$VERSION npm run version:branch --workspace @nnmbzr/assetpack-core",
+    "release": "npm run release --workspace @nnmbzr/assetpack-core",
+    "release:branch": "PUBLISH_TAG=$PUBLISH_TAG npm run release:branch --workspace @nnmbzr/assetpack-core",
     "pretest": "npm run clean",
     "test": "vitest run",
     "test:lint": "eslint . --max-warnings 0",
